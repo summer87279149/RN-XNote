@@ -243,7 +243,7 @@ const styles = StyleSheet.create({
     color:"#f36",
   }
 });
-// -------------------redux react 绑定--------------------
+// -------------------redux   react 绑定--------------------
 
 function mapStateToProps(state) {
   return {

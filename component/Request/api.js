@@ -51,6 +51,7 @@ export function addTrainsName(user_id,train_name) {
     });
   })
 }
+
 //删除训练项目
 export function removeTrainsName(user_id,train_name) {
   const url = url1+"/trains/removetrains"
@@ -66,6 +67,7 @@ export function removeTrainsName(user_id,train_name) {
     });
   })
 }
+
 //添加训练记录
 export function addtrains(param) {
   const url = url1+"/trains/add"
@@ -76,6 +78,7 @@ export function addtrains(param) {
     });
   })
 }
+
 //获取训练类型,参数uid
 export function getTrainKinds(user_id) {
   const url = url1+"/trains/gettrainkinds"
